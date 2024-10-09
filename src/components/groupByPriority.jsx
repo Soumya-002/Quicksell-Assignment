@@ -1,6 +1,6 @@
 const groupByPriority = (tickets) => {
   return tickets.reduce((groups, ticket) => {
-    const priority = `Priority ${ticket.priority}` || 'Unknown';
+    const priority = `Priority ${ticket.priority}`;
     if (!groups[priority]) {
       groups[priority] = [];
     }

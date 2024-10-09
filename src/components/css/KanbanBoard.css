@@ -8,8 +8,7 @@ body {
 .Column-Header{
     display: flex;
     justify-content: space-between;
-    width: 250px;
-
+    width: 280px;
 }
 .SubHeader{
     display: flex;
@@ -34,15 +33,9 @@ body {
 .kanban-column {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 250px;
+    width: 280px;
     min-height: 100px; 
-}
-
-.kanban-column h2 {
-    font-size: 1.5rem;
-    margin-bottom: 16px;
-    color: #333333;
-}
+}   
 
 .kanban-card {
     background-color: #f9f9f9;
@@ -57,32 +50,14 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.kanban-card h4 {
-    font-size: 1.2rem;
-    margin: 0 0 8px 0;
-    color: #333333;
-}
-
 .kanban-card p {
+    font-size: 0.75rem;
     margin: 4px 0;
     color: #666666;
 }
 #card-body{
     padding: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-
-}
-.group-selector {
-    margin-bottom: 20px;
-}
-
-.group-selector select {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    background-color: #ffffff;
-    cursor: pointer;
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
 const groupByStatus = (tickets) => {
   return tickets.reduce((groups, ticket) => {
-    const status = ticket.status || 'Unknown';
+    const status = ticket.status;
     if (!groups[status]) {
       groups[status] = [];
     }

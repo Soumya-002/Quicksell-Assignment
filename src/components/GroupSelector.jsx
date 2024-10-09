@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import displayIcon from '../Assests/icons_FEtask/Display.svg';
 import down from '../Assests/icons_FEtask/down.svg';
-
 import './css/GroupSelector.css';
 
 const GroupSelector = ({ onGroupChange, onOrderChange }) => {
@@ -40,6 +39,7 @@ const GroupSelector = ({ onGroupChange, onOrderChange }) => {
               <option value="priority">Priority</option>
             </select>
           </div>
+          
           <div className="dropdown-section">
             <label className="GroupLabel">Ordering</label>
             <select value={ordering} onChange={handleOrderChange}>

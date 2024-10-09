@@ -86,4 +86,4 @@ const KanbanColumn = ({ title, tickets , groupBy }) => {
 
 export default KanbanColumn;
 
-// I Have Used Backlog and Todo logo as user profile in the cards
+// I Have Used Backlog and Todo logo as user profile in the cards //
